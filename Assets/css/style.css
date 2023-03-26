@@ -1,0 +1,21 @@
+/* fuentes, tipografias,colores,fondos, tamaños margenes,etc */
+@font-face {
+    font-family: "fuente_titulos";
+    src: url('./Lobster/Lobster-Regular.ttf');
+}
+body {
+    background-image: url("/publics/6017056.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;}
+
+#nombre_con_color {
+        font-family: fantasy;
+        font-size: 70px;
+        color: #EEACBA;
+    }
+ div{
+    background-image: url("/publics/6017056.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
