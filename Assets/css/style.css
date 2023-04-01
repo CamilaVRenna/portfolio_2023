@@ -20,6 +20,8 @@ body{
   width:450px;
   border-radius:50%;
   position:relative ;
+  border-color: rgb(255, 180, 208);
+  border-style: dotted;
   }
 
 #nombre{
