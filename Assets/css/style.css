@@ -1,21 +1,77 @@
-/* fuentes, tipografias,colores,fondos, tamaños margenes,etc */
+/* fuentes, tipografias,fondos*/
 @font-face {
     font-family: "fuente_titulos";
     src: url('./Lobster/Lobster-Regular.ttf');
 }
-body {
-    background-image: url("/publics/6017056.jpg");
-    background-repeat: no-repeat;
+body{
+    background-image: url("/publics/Ilustración.jpg" );
+    background-repeat: repeat;
     background-size: cover;
-    background-color: transparent;}
+    background-color: transparent;
+    font-family:fantasy
+  }
 
-#nombre_con_color {
-        font-family: fantasy;
-        font-size: 70px;
-        color: #EEACBA;
-    }
- div{
-    background-image: url("/publics/6017056.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+/* pagina principal presentacion */
+
+#carita{
+  left: 710px;
+  top: 50px;
+  height:450px;
+  width:450px;
+  border-radius:50%;
+  position:relative ;
+  }
+
+#nombre{
+  top: 50px;
+  left: 800px;
+  position: relative;
+  font-size: 40px;
+}
+.descripcion{
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+}
+.descripcion2{
+  text-align: center;
+  position: relative;
+}
+
+#carouselExample{
+  top: 50px;
+  left: 500px;
+  height: 800px;
+  width: 800px;
+}
+  
+/* botones con link */
+
+a{
+  position: relative;
+  display: block;
+  width: 150px;
+  height:40px;
+  font-family:fantasy;
+  background-color: rgb(230, 177, 199);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+ 
+.sobre{
+  margin-top: 100px;
+  margin-left: 600px;
+}
+
+.portfolio{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.contacto{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.contenedor{
+  display: flex;
 }
