@@ -8,7 +8,7 @@
   src: url(/Assets/css/blessed_2/Blessed.ttf);
 }
 body{
-    background-image: url("/publics/Ilustración.jpg" );
+    background-image: url("./Ilustración.jpg" );
     background-repeat:inherit;
     background-size:cover;
     background-color: transparent;
