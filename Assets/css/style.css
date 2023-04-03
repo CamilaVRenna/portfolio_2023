@@ -1,12 +1,15 @@
-/* fuentes, tipografias,fondos*/
+/* fuentes, tipografias*/
 @font-face {
     font-family: "descripcion";
     src: url('./Lobster/Lobster-Regular.ttf');
 }
 @font-face {
   font-family: "titulos";
-  src: url(/Assets/css/blessed_2/Blessed.ttf);
+  src: url("./starborn/Starborn.ttf");
 }
+
+ /* fondo */
+ 
 body{
     background-image: url("./Ilustración.jpg" );
     background-repeat:inherit;
@@ -34,17 +37,20 @@ body{
   text-align: center;
   position: relative;
   font-size: 40px;
+  color: rgb(206, 99, 117);
 }
 .descripcion{
   font-family:"descripcion" ;
   text-align: center;
   margin-top: 100px;
   position: relative;
+  color: rgb(206, 99, 117);
 }
 .descripcion2{
   font-family:"descripcion" ;
   text-align: center;
   position: relative;
+  color: rgb(206, 99, 117);
 }
 
 #carouselExample{
@@ -56,17 +62,17 @@ body{
   
 /* botones con link */
 
-a{
+#i{
   position: relative;
   display: block;
   width: 150px;
   height:40px;
   font-family:fantasy;
   color: rgb(194, 80, 108);
-  background-color: rgb(255, 224, 237);
+  background-color: rgb(248, 165, 186);
   border-radius: 10px;
   border-style:inherit;
-  border-color:rgb(255, 200, 223);
+  border-color:rgb(248, 165, 186);
   text-align: center;
   font-size: 20px;
 }
@@ -80,10 +86,146 @@ a{
   margin-top: 100px;
   margin-left: 100px;
 }
-.contacto{
+
+#contenedor{
+  display: flex;
+  bottom: 50px;
+}
+
+/* pagina "sobre mi y portfolio" */
+
+.de{
+font-family:"descripcion" ;
+text-align: center;
+top: 50px;
+position: relative;
+color: rgb(206, 99, 117);
+margin: 20px;
+}
+
+#spotify{
+left: 180px;
+width:500px;
+height: 800px;
+}
+
+#carouselExample{
+  top: 50px;
+position: relative;
+}
+
+.so{
+  top: 150px;
+  position: relative;
+  font-size: 30 ;
+  font-family:"descripcion";
+  color: rgb(182, 95, 109);
+  left:120px;
+}
+
+ul li {
+left: 800px;
+list-style-type: circle;
+list-style-position:inside;
+text-align:justify;
+position: relative;
+color: rgb(206, 99, 117);
+font-size: 50;
+}
+
+#cara{
+  position: relative;
+  top:110px;
+  left:80px;
+  height:400px;
+  width: 400px;
+  border-radius: 50%;
+  float:left
+}
+.si{
+  top: 20px;
+  position: relative;
+  font-size: 30 ;
+  font-family:"descripcion";
+  color: rgb(182, 95, 109);
+  left:500px;
+}
+.descrip{
+  font-family:"descripcion" ;
+  margin-top: 200px;
+  position: relative;
+  color: rgb(206, 99, 117);
+  text-align: center;
+}
+
+#nom{
+  font-family:"titulos";
+  top: 115px;
+  position: relative;
+  font-size: 40px;
+  left: 300px;
+  color: rgb(206, 99, 117);
+}
+.linkspotifi{
   margin-top: 100px;
   margin-left: 100px;
 }
+
+.linkspotif{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
 .contenedor{
+  top: 50px;
+  position: relative;
   display: flex;
+}
+
+#a{
+  position: relative;
+  display: block;
+  width: 250px;
+  height:40px;
+  font-family:fantasy;
+  color: rgb(194, 80, 108);
+  background-color: rgb(245, 151, 162);
+  border-radius: 10px;
+  border-style:inherit;
+  border-color:rgb(245, 151, 162);
+  text-align: center;
+  font-size: 20px;
+}
+#o{
+position: relative;
+display: block;
+width: 300px;
+height:40px;
+font-family:fantasy;
+color: rgb(194, 80, 108);
+background-color: rgb(245, 151, 162);
+border-radius: 10px;
+border-style:inherit;
+border-color:rgb(245, 151, 162);
+text-align: center;
+font-size: 20px;
+}
+
+.aja{
+  margin-top: 60px;
+  margin-left: 630px;
+  margin-bottom: 50px;
+}
+.ajaa{
+  margin-top: 60px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+#contenido{
+  text-align: center;
+}
+.red{
+position: relative;
+top: 50px;
+bottom:50px;
 }
